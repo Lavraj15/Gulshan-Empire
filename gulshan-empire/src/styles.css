@@ -357,7 +357,7 @@ transition: background 0.2s, color 0.2s, box-shadow 0.2s;
 .location .head { margin-bottom: 64px; }
 .location .head h2 { margin-bottom: 8px; }
 .location .head h3 { margin-bottom: 28px; }
-.location__grid { display: grid; grid-template-columns: 1.37fr 1fr; gap: clamp(32px, 8vw, 206px); align-items: center; }
+.location__grid { display: grid; grid-template-columns: 1.37fr 1.5fr; gap: clamp(32px, 8vw, 206px); align-items: center; }
 .distances li { display: flex; align-items: center; gap: 18px; padding: 22px 0; border-bottom: 1px solid #e7d5d0; font-family: var(--serif); font-size: 1rem; }
 .distances li:first-child { padding-top: 0; }
 .location__map img { width: 100%; aspect-ratio: 562 / 491; object-fit: cover; }
